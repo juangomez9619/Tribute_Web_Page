@@ -1,3 +1,37 @@
-h1 {
-    color: red;
+body {
+    background-color: #c7ecbe;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: #225f13;
+    border-radius: 10px;
+
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #FFF;
+}
+
+#title {
+    margin-bottom: -10px;
+}
+
+#img-div {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#image {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
 }
