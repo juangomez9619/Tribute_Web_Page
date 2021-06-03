@@ -22,16 +22,41 @@ main {
 }
 
 #img-div {
-    width: 50%;
+    width: 20%;
     height: auto;
     background-color: white;
     padding-top: 25px;
     padding-bottom: 25px;
+
+    border-radius: 5px;
 }
 
 #image {
     display: block;
-    width: 50%;
+    width: 95%;
     height: auto;
     margin: auto;
+}
+
+figcaption {
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+    margin-top: 1.7vw;
+}
+
+#tribute-info {
+    width: 75%;
+    text-align: justify;
+}
+
+
+a {
+    color:#fff;
+}
+
+a:hover {
+    background-color: white;
+    color: #225f13;
 }
